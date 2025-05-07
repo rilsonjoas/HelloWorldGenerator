@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelloWorld Generator</title>
+
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+ 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   
+    <div class="container">
+
+        
+        <div class="language-switcher">
+            <button data-lang="en" class="lang-button active" aria-label="Switch to English">EN</button>
+            <button data-lang="es" class="lang-button" aria-label="Cambiar a Español">ES</button>
+            <button data-lang="pt" class="lang-button" aria-label="Mudar para Português">PT</button>
+        </div>
+
+        
+        <h1 data-i18n-key="pageTitle">HelloWorld Generator</h1>
+
+   
+        <div class="controls">
+            <label for="language-select" data-i18n-key="selectLabel">Choose Language:</label>
+            <select id="language-select">
+          
+                <option value="" selected disabled data-i18n-key="defaultOption">-- Select --</option>
+           
+            </select>
+          
+             <button id="copy-button" class="copy-button" aria-label="Copy code to clipboard" data-i18n-key="copyButtonLabel" data-copied-text="Copied!">
+                Copy Code
+             </button>
+        </div>
+
+   
+        <div id="code-container" class="code-container">
+        
+            <div class="code-header">
+                <span class="code-dot" style="background:#ff5f57;"></span>
+                <span class="code-dot" style="background:#febc2e;"></span>
+                <span class="code-dot" style="background:#28c840;"></span>
+            </div>
+            <pre><code id="code-display" class="language-plaintext" data-i18n-key="initialMessage">Choose a language above to see the "Hello, World!" code.</code></pre>
+        </div>
+
+    </div> 
+
+ 
+    <script src="languages.js"></script>
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+const translations = {
+  en: {
+    pageTitle: "HelloWorld Generator",
+    selectLabel: "Choose Language:",
+    defaultOption: "-- Select --",
+    initialMessage: 'Choose a language above to see the "Hello, World!" code.',
+    copyButtonLabel: "Copy Code",
+    copyButtonCopied: "Copied!",
+    copyButtonAria: "Copy code to clipboard",
+    switchLangAriaEN: "Switch to English",
+    switchLangAriaES: "Switch to Spanish",
+    switchLangAriaPT: "Switch to Portuguese",
+  },
+  es: {
+    pageTitle: "Generador de HelloWorld",
+    selectLabel: "Elige un lenguaje:",
+    defaultOption: "-- Selecciona --",
+    initialMessage:
+      'Elige un lenguaje arriba para ver el código "Hello, World!".',
+    copyButtonLabel: "Copiar Código",
+    copyButtonCopied: "¡Copiado!",
+    copyButtonAria: "Copiar código al portapapeles",
+    switchLangAriaEN: "Cambiar a Inglés",
+    switchLangAriaES: "Cambiar a Español",
+    switchLangAriaPT: "Cambiar a Portugués",
+  },
+  pt: {
+    pageTitle: "Gerador de HelloWorld",
+    selectLabel: "Escolha a linguagem:",
+    defaultOption: "-- Selecione --",
+    initialMessage:
+      'Escolha uma linguagem acima para ver o código "Hello, World!".',
+    copyButtonLabel: "Copiar Código",
+    copyButtonCopied: "Copiado!",
+    copyButtonAria: "Copiar código para a área de transferência",
+    switchLangAriaEN: "Mudar para Inglês",
+    switchLangAriaES: "Mudar para Espanhol",
+    switchLangAriaPT: "Mudar para Português",
+  },
+};
