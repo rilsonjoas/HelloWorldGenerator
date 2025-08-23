@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;700&display=swap');
 
 :root {
@@ -15,7 +14,7 @@
     --copy-success-bg: #98c379; 
     --copy-success-text: #21252b; 
 
-    --font-ui: 'Inter', sans-serif;
+    --font-ui: 'Ubuntu', 'Ubuntu Condensed', 'Ubuntu Mono', Arial, sans-serif;
     --font-code: 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
 
@@ -284,4 +283,12 @@ code {
     pre {
         font-size: 0.85rem;
     }
+}
+
+.main-footer {
+    text-align: center;
+    margin-top: 64px;
+    font-size: 1rem;
+    color: #555;
+    font-family: 'Ubuntu Condensed', 'Ubuntu', Arial, sans-serif;
 }
